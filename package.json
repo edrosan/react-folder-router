@@ -1,0 +1,40 @@
+{
+  "name": "react-folder-router",
+  "version": "1.0.0",
+  "author": "edrosan",
+  "license": "MIT",
+  "description": "File-system based routing for React applications that converts your folder structure into routes. Works as an extension to react-router-dom, which is required as a peer dependency.",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">=17",
+    "react-router-dom": ">=6"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-terser": "^0.4.0",
+    "rollup": "^3.0.0",
+    "rollup-plugin-peer-deps-external": "^2.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "keywords": [
+    "react",
+    "react-router",
+    "file-based-routing",
+    "folder-router",
+    "route-generator",
+    "auto-routing",
+    "vite",
+    "lazy-loading"
+  ]
+}
